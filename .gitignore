@@ -1,0 +1,39 @@
+# Maven build output
+target/
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Compiled classes (should never be committed)
+*.class
+
+# Logs
+*.log
+
+# IDE / editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets / environment config (add DB credentials here, never commit them)
+.env
+.env.*
+*.pem
+*.key
+application-local.properties
+application-local.yml
