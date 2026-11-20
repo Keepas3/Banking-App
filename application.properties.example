@@ -1,0 +1,13 @@
+# Copy this file to "application.properties" (same folder) and fill in your own values.
+# application.properties is excluded from Git - never commit real credentials.
+# Each value can also be overridden by an environment variable:
+#   PG_URL, PG_USER, PG_PASSWORD, MONGO_URI, MONGO_DATABASE
+
+# --- PostgreSQL (banking data) ---
+postgres.url=jdbc:postgresql://localhost:5432/banking
+postgres.username=your_postgres_user
+postgres.password=your_postgres_password
+
+# --- MongoDB (notes and activity logs) ---
+mongo.uri=mongodb://localhost:27017
+mongo.database=banking_notes
